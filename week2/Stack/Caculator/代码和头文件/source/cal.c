@@ -5,8 +5,8 @@
 #include "..\head\cal.h"
 
 StackNode* p;
-LinkStack OPND;
-LinkStack OPTR;
+LinkStack OPND; // Operand Stack
+LinkStack OPTR; // Operater Stack
 
 Status InitStack(LinkStack S) {
 	S->data = 0;
@@ -38,7 +38,6 @@ ElemType Pop(LinkStack S) {
 ElemType GetTop(LinkStack S) {
 	//Returns the stack top element of S without modifying the stack top pointer
 	if (S != NULL) {
-		//Õ»·Ç¿Õ
 		return S->data;
 	}
 }
@@ -210,14 +209,16 @@ int EvaluateExpression() {
 		}
 
 	}
-	printf("The calculation result is£º%d", GetTop(OPND) - '0');//Because the data in OPND is char,converting it to int	    
+	printf("Result£º%d\n", GetTop(OPND) - '0');//Because the data in OPND is char,converting it to int	    
 }
 
 void main()
 {
 	OPND = malloc(sizeof(StackNode));
 	OPTR = malloc(sizeof(StackNode));
-	printf("Sorry, now it can noly caculate 1bit num\n\n");
+	printf("Sorry, now it can noly caculate 1bit num and ENTER to exit\n\n");
 	printf("Please enter an expression to evaluate:");
-	EvaluateExpression();
+	while (1) {
+		EvaluateExpression();
+	}
 }

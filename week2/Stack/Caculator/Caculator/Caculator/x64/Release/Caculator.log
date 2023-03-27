@@ -2,9 +2,9 @@
   cal.c
   正在生成代码
   Previous IPDB not found, fall back to full compilation.
-J:\Programing\C\QG\Week2\Stack\Caculator\代码和头文件\source\cal.c(44): warning C4715: “GetTop”: 不是所有的控件路径都返回值
-J:\Programing\C\QG\Week2\Stack\Caculator\代码和头文件\source\cal.c(118): warning C4715: “Precede”: 不是所有的控件路径都返回值
-J:\Programing\C\QG\Week2\Stack\Caculator\代码和头文件\source\cal.c(214): warning C4716: “EvaluateExpression”: 必须返回一个值
+J:\Programing\C\QG_Training\week2\Stack\Caculator\代码和头文件\source\cal.c(117): warning C4715: “Precede”: 不是所有的控件路径都返回值
+J:\Programing\C\QG_Training\week2\Stack\Caculator\代码和头文件\source\cal.c(43): warning C4715: “GetTop”: 不是所有的控件路径都返回值
+J:\Programing\C\QG_Training\week2\Stack\Caculator\代码和头文件\source\cal.c(213): warning C4716: “EvaluateExpression”: 必须返回一个值
   All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
-  Caculator.vcxproj -> J:\Programing\C\QG\Week2\Stack\Caculator\exe\Caculator.exe
+  Caculator.vcxproj -> J:\Programing\C\QG_Training\week2\Stack\Caculator\exe\Caculator.exe
