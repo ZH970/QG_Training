@@ -1,0 +1,4 @@
+﻿  linkedList.c
+J:\Programing\C\QG\linkList\linkList\linkList\Sources\linkedList.c(139,35): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+J:\Programing\C\QG\linkList\linkList\linkList\Sources\linkedList.c(155,13): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+J:\Programing\C\QG\linkList\linkList\linkList\Sources\linkedList.c(121): fatal  error C1075: “{”: 未找到匹配令牌

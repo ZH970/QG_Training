@@ -1,0 +1,11 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(503,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  linkedList.c
+J:\Programing\C\QG\linkList\linkList\linkList\Sources\linkedList.c(10,2): warning C4013: “input”未定义；假设外部返回 int
+J:\Programing\C\QG\linkList\linkList\linkList\Sources\linkedList.c(324,8): warning C4113: “int (__cdecl *)(const char *const ,...)”和“void (__cdecl *)(ElemType)”的参数列表不同
+J:\Programing\C\QG\linkList\linkList\linkList\Sources\linkedList.c(379,25): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+J:\Programing\C\QG\linkList\linkList\linkList\Sources\linkedList.c(254): warning C4715: “input”: 不是所有的控件路径都返回值
+  All 21 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  linkList.vcxproj -> J:\Programing\C\QG\linkList\linkList\linkList\Release\linkList.exe

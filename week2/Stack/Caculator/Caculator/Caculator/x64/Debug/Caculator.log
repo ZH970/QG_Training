@@ -1,0 +1,5 @@
+﻿  cal.c
+J:\Programing\C\QG\Week2\Stack\Caculator\代码和头文件\source\cal.c(44): warning C4715: “GetTop”: 不是所有的控件路径都返回值
+J:\Programing\C\QG\Week2\Stack\Caculator\代码和头文件\source\cal.c(118): warning C4715: “Precede”: 不是所有的控件路径都返回值
+J:\Programing\C\QG\Week2\Stack\Caculator\代码和头文件\source\cal.c(214): warning C4716: “EvaluateExpression”: 必须返回一个值
+  Caculator.vcxproj -> J:\Programing\C\QG\Week2\Stack\Caculator\Caculator\x64\Debug\Caculator.exe
