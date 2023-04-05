@@ -1,0 +1,18 @@
+﻿  Folder.c
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(12,43): warning C4029: 声明的形参表不同于定义
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(132,34): warning C4133: “函数”: 从“WIN32_FIND_DATA *”到“LPWIN32_FIND_DATAA”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(144,27): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(144,71): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(182,15): warning C4047: “函数”:“char *const ”与“char (*)[260]”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(182,13): warning C4024: “sprintf”: 形参和实参 1 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(183,18): warning C4047: “函数”:“const char *”与“char (*)[260]”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(183,16): warning C4024: “_mkdir”: 形参和实参 1 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(191,32): warning C4047: “函数”:“const char *”与“char (*)[260]”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(191,30): warning C4024: “strcpy”: 形参和实参 2 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(205,20): warning C4133: “函数”: 从“Folder *”到“char *”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(205,35): warning C4020: “createFolder”: 实参太多
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(206,7): warning C4033: “createFolder”必须返回值
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(178,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(230,1): warning C4010: 单行注释包含行继续符
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(218): warning C4715: “createFolder”: 不是所有的控件路径都返回值
+  Note.vcxproj -> J:\Programing\C\QG_Training\Note_sys\x64\Debug\Note.exe
