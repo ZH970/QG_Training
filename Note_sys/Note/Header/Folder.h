@@ -4,7 +4,7 @@
 
 typedef enum Status
 {
-	ERROR = 0,
+	ERR = 0,
 	SUCCESS = 1
 } Status;
 
@@ -15,6 +15,7 @@ typedef struct folder {
 	struct folder* parent; //父文件夹
 	struct folder* child; //第一个子文件夹
 	struct folder* sibling; //下一个兄弟文件夹
+	int visited; //1代表已搜索
 	//Note* note; //文件夹中笔记列表
 	//Tag* tag; //文件夹标签列表
 } Folder;
@@ -35,13 +36,13 @@ void showFoldersWithSearchTerm(char* path, char* searchTerm);
 Folder* moveUpDirectory(Folder* currentFolder);
 
 //将路径切换为命令中输入的文件夹路径
-Folder* moveDirectory(Folder* root, char* path);
+Folder* moveDirectory(Folder* currentFolder, char* path);
 
-//将指定的笔记文件夹移动到目标文件夹目录下
-Status moveFolderToDirectory(Folder* sourceFolder, Folder* targetFolder);
+//将指定的笔记文件夹移动到目标文件夹目录下(未实现）
+//Status moveFolderToDirectory(Folder* sourceFolder, Folder* targetFolder);
 
 //删除指定文件夹以及其内部所有内容
-Status deleteFolderRecursive(Folder* folder);
+//Status deleteFolderRecursive(Folder* folder);
 
 // 创建文件夹
 Folder* createFolder(char* name, char* path);
@@ -50,10 +51,10 @@ Folder* createFolder(char* name, char* path);
 Status deleteFolder(Folder* folder);
 
 // 查找文件夹
-Folder* findFolder(Folder* root, char* path);
+Folder* findFolder(char* path);
 
 // 添加文件夹
-Status addFolder(Folder* root, char* path);
+//Status addFolder(Folder* root, char* path);
 
 // 移动文件夹
 Status moveFolder(Folder* root, char* oldPath, char* newPath);
@@ -65,7 +66,7 @@ Status renameFolder(Folder* folder, char* name);
 Status deleteNoteFromFolder(Folder* folder, char* noteName);
 
 //// 添加笔记到文件夹
-//Status addNoteToFolder(Folder* folder, Note* note);
+//Status addNoteT	oFolder(Folder* folder, Note* note);
 //
 ////保存数据
 //void saveFolderToFile(Folder* folder, FILE* fp);

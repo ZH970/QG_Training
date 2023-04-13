@@ -1,18 +1,134 @@
 ﻿  Folder.c
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(12,43): warning C4029: 声明的形参表不同于定义
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(132,34): warning C4133: “函数”: 从“WIN32_FIND_DATA *”到“LPWIN32_FIND_DATAA”的类型不兼容
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(144,27): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(144,71): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(182,15): warning C4047: “函数”:“char *const ”与“char (*)[260]”的间接级别不同
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(182,13): warning C4024: “sprintf”: 形参和实参 1 的类型不同
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(183,18): warning C4047: “函数”:“const char *”与“char (*)[260]”的间接级别不同
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(183,16): warning C4024: “_mkdir”: 形参和实参 1 的类型不同
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(191,32): warning C4047: “函数”:“const char *”与“char (*)[260]”的间接级别不同
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(191,30): warning C4024: “strcpy”: 形参和实参 2 的类型不同
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(205,20): warning C4133: “函数”: 从“Folder *”到“char *”的类型不兼容
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(205,35): warning C4020: “createFolder”: 实参太多
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(206,7): warning C4033: “createFolder”必须返回值
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(178,14): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(230,1): warning C4010: 单行注释包含行继续符
-J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(218): warning C4715: “createFolder”: 不是所有的控件路径都返回值
-  Note.vcxproj -> J:\Programing\C\QG_Training\Note_sys\x64\Debug\Note.exe
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(21,43): warning C4029: 声明的形参表不同于定义
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(130,34): warning C4133: “函数”: 从“WIN32_FIND_DATA *”到“LPWIN32_FIND_DATAA”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(142,27): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(142,71): warning C4133: “函数”: 从“WCHAR [260]”到“const char *”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(223,3): warning C4033: “findFolder”必须返回值
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(256,3): warning C4033: “createFolder”必须返回值
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(265,15): warning C4047: “函数”:“char *const ”与“char (*)[260]”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(265,13): warning C4024: “sprintf”: 形参和实参 1 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(266,18): warning C4047: “函数”:“const char *”与“char (*)[260]”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(266,16): warning C4024: “_mkdir”: 形参和实参 1 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(274,32): warning C4047: “函数”:“const char *”与“char (*)[260]”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(274,30): warning C4024: “strcpy”: 形参和实参 2 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(283,33): warning C4133: “函数”: 从“Folder *”到“char *”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(283,39): warning C4020: “findFolder”: 实参太多
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(260,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(321,26): warning C4133: “函数”: 从“Folder *”到“char *”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(321,32): warning C4020: “findFolder”: 实参太多
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(357,25): warning C4028: 形参 1 与声明不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(357,49): warning C4029: 声明的形参表不同于定义
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(360,19): warning C4013: “_T”未定义；假设外部返回 int
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(368,41): warning C4047: “函数”:“LPCWSTR”与“int”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(368,20): warning C4024: “MessageBoxW”: 形参和实参 2 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(368,55): warning C4047: “函数”:“LPCWSTR”与“int”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(368,43): warning C4024: “MessageBoxW”: 形参和实参 3 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(371,41): warning C4047: “函数”:“LPCWSTR”与“int”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(371,20): warning C4024: “MessageBoxW”: 形参和实参 2 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(371,55): warning C4047: “函数”:“LPCWSTR”与“int”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(371,43): warning C4024: “MessageBoxW”: 形参和实参 3 的类型不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(360,10): warning C4047: “初始化”:“LPCWSTR”与“int”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(361,10): warning C4047: “初始化”:“LPCWSTR”与“int”的间接级别不同
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(385,30): warning C4133: “函数”: 从“Folder *”到“char *”的类型不兼容
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(385,36): warning C4020: “findFolder”: 实参太多
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(465,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(498,2): warning C4013: “createNote”未定义；假设外部返回 int
+  note.c
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(21,8): error C2061: 语法错误: 标识符“addNoteToFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(21,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(21,30): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(21,30): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(21,40): error C2371: “Note”: 重定义；不同的基类型
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(15,3): message : 参见“Note”的声明
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(21,44): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(21,53): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(24,8): error C2061: 语法错误: 标识符“addNewNoteToFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(24,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(24,33): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(24,33): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(24,54): error C2059: 语法错误:“类型”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(24,80): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(27,8): error C2061: 语法错误: 标识符“deleteNote”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(27,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(27,23): error C2059: 语法错误:“<parameter-list>”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(30,8): error C2061: 语法错误: 标识符“deleteNoteFromFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(30,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(30,35): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(30,35): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(30,56): error C2059: 语法错误:“类型”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(30,67): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(33,30): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(33,30): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(33,42): error C2059: 语法错误:“类型”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(33,52): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(36,8): error C2061: 语法错误: 标识符“moveNoteToFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(36,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(36,29): error C2059: 语法错误:“<parameter-list>”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(39,8): error C2061: 语法错误: 标识符“renameNote”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(39,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(39,23): error C2059: 语法错误:“<parameter-list>”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(42,8): error C2061: 语法错误: 标识符“sortNotesInFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(42,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(42,32): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(42,32): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(42,40): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(29,8): error C2065: “Folder”: 未声明的标识符
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(29,17): error C2065: “result”: 未声明的标识符
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(29,19): warning C4013: “findFolder”未定义；假设外部返回 int
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(29,8): error C2106: “=”: 左操作数必须为左值
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(30,12): error C2065: “result”: 未声明的标识符
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(35,9): error C2065: “result”: 未声明的标识符
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(35,11): error C2223: “->note”的左侧必须指向结构/联合
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(57,8): error C2061: 语法错误: 标识符“addNoteToFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(57,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(57,30): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(57,30): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(57,40): error C2371: “Note”: 重定义；不同的基类型
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(15,3): message : 参见“Note”的声明
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(57,44): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(57,53): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(57,55): error C2054: 在“newNote”之后应输入“(”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(72,8): error C2061: 语法错误: 标识符“addNewNoteToFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(72,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(72,33): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(72,33): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(72,54): error C2059: 语法错误:“类型”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(72,80): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(83,8): error C2061: 语法错误: 标识符“deleteNote”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(83,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(83,23): error C2059: 语法错误:“<parameter-list>”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(107,8): error C2061: 语法错误: 标识符“deleteNoteFromFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(107,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(107,35): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(107,35): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(107,56): error C2059: 语法错误:“类型”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(107,67): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(134,30): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(134,30): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(134,42): error C2059: 语法错误:“类型”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(134,52): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(155,7): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(155,34): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(155,34): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(155,42): error C2371: “Note”: 重定义；不同的基类型
+J:\Programing\C\QG_Training\Note_sys\Note\Header\note.h(15,3): message : 参见“Note”的声明
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(155,46): error C2143: 语法错误: 缺少“;”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(155,52): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(155,54): error C2054: 在“note”之后应输入“(”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(171,8): error C2061: 语法错误: 标识符“moveNoteToFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(171,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(171,29): error C2059: 语法错误:“<parameter-list>”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(198,8): error C2061: 语法错误: 标识符“renameNote”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(198,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(198,23): error C2059: 语法错误:“<parameter-list>”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(222,8): error C2061: 语法错误: 标识符“sortNotesInFolder”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(222,8): error C2059: 语法错误:“;”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(222,32): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(222,32): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(222,40): error C2059: 语法错误:“)”
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\note.c(222,42): error C2054: 在“folder”之后应输入“(”
+  正在生成代码...
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(251): warning C4715: “findFolder”: 不是所有的控件路径都返回值
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(313): warning C4715: “createFolder”: 不是所有的控件路径都返回值
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(374): warning C4716: “moveFolder”: 必须返回一个值
+J:\Programing\C\QG_Training\Note_sys\Note\Sources\Folder.c(459): warning C4715: “deleteFolder”: 不是所有的控件路径都返回值

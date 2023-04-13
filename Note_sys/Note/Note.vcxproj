@@ -128,9 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Header\Folder.h" />
+    <ClInclude Include="Header\note.h" />
+    <ClInclude Include="Header\struct.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Sources\Folder.c" />
+    <ClCompile Include="Sources\note.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
